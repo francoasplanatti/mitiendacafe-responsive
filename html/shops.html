@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+
+    <!--css-->
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+
+    <!--googleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!--Iconos redes sociales-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://kit.fontawesome.com/d155a8c12c.js" crossorigin="anonymous"></script>
+
+    <!--Google Maps API-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="/javascript/map-script.js"></script>
+
+    <title>Locales</title>
+
+</head>
+
+<header>
+    <div class="extra">
+        <ul class="information">
+            <li class="items">
+                <p>Entrega disponible para todo el país</p>
+            </li>
+            <li class="items">
+                <p class = "query">+54 11 3243 2345</p>
+            </li>
+        </ul>
+
+        <ul class="contact">
+            <li class="items"><a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="items"><a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="items"><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </div>
+
+    <nav class="nav">
+        <div class="container">
+            <h1><a href="../index.html"><img class="logo" src="https://cdn-icons-png.flaticon.com/512/4857/4857032.png"
+                alt=""></a></h1>
+                <label for="menu" class="navLabel">
+                    <img src="../assets/menu.svg" alt="navMenu">
+                </label>
+            <input type="checkbox" id="menu" class="navInput">
+            <ul class="main">
+                <li><a href="../html/products.html">TIENDA</a></li>
+                <li><a href="../html/shops.html">LOCALES</a></li>
+                <li><a href="../html/aboutUs.html">SOBRE NOSOTROS</a></li>
+            </ul>
+            <a href="../index.html"><h2 class="text">TIENDA DE CAFÉ</h2></a>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+    <!-- MAP -->
+    <div class="shops-grid">
+        <div id="map"></div>
+        <div class="card">
+            <h3>Tienda de Café - Buenos Aires</h3>
+            <p><b>Horario:</b> lunes a sábado de 8:00 a 19:00</p>
+            <p><b>Dirección:</b> Paraguay 1702, C.A.B.A.</p>
+        </div>
+        <div class="card">
+            <h3>Tienda de Café - Martínez</h3>
+            <p><b>Horario:</b> lunes a sábado de 8:00 a 19:00</p>
+            <p><b>Dirección:</b> Tucumán 1184, Martínez, Buenos Aires</p>
+        </div>
+        <div class="card">
+            <h3>Tienda de Café - Concordia</h3>
+            <p><b>Horario:</b> lunes a sábado de 9:00 a 21:00</p>
+            <p><b>Dirección:</b> Quintana 334, Concordia, Entre Ríos</p>
+        </div>
+        <div class="card">
+            <h3>Tienda de Café - Rosario</h3>
+            <p><b>Horario:</b> martes a domingo de 9:00 a 20:30</p>
+            <p><b>Dirección:</b> Santa Fe 3232, Rosario, Sante Fe</p>
+        </div>
+    </div>
+
+    <a href="../html/products.html">
+        <div class="imgbanner-box">
+            <img class="imgbanner"
+                src="../img/banner.jpg">
+            </img>
+        </div>
+    </a>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap"
+        defer>
+        </script>
+</body>
+
+<footer>
+    <div class="container">
+        <div class="column">
+            <h2>Sobre Nosotros</h2>
+            <ul>
+                <li>Historia</li>
+                <li>Nuestro Café</li>
+                <li>Canales oficiales</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h2>Tienda</h2>
+            <ul>
+                <li>Mi Cuenta</li>
+                <li>Productos</li>
+                <li>¿Cómo comprar?</li>
+                <li>Envío</li>
+                <li>Devolución</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h2>Atención al cliente</h2>
+            <ul>
+                <li>Contacto</li>
+                <li>Medios de Pago</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h2>Newsletter</h2>
+            <ul>
+                <li>Suscribirse</li>
+            </ul>
+        </div>
+
+        <ul class="contact">
+            <li class="items"><a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="items"><a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="items"><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </div>
+
+</footer>
+
+</html>
